@@ -3,41 +3,14 @@ Flask==3.0.0
 Flask-Cors==4.0.0
 gunicorn==21.2.0
 
-# HTTP Requests and Env
+# HTTP Requests and Environment
 requests==2.31.0
 python-dotenv==1.0.0
 
-# JSON & Data Utilities
+# JSON Serialization
 dataclasses-json==0.6.1
 marshmallow==3.20.1
 
-# Optional - if you're using Langchain
+# LangChain - only if used
 langchain==0.0.312
 langsmith==0.0.43
-
-# Optional - if you're using numpy or regex
-numpy==1.26.4
-regex==2023.10.3
-
-# Optional - if you want better logging and progress bars
-loguru==0.7.2
-tqdm==4.66.1
-
-# Optional - only if you're using a DB
-SQLAlchemy==2.0.21
-
-# Required by Flask
-Jinja2==3.1.2
-MarkupSafe==2.1.3
-itsdangerous==2.1.2
-click==8.1.7
-Werkzeug==3.0.0
-
-# Misc
-certifi==2023.7.22
-charset-normalizer==3.3.0
-idna==3.4
-urllib3==2.0.6
-colorama==0.4.6
-blinker==1.6.3
-typing_extensions==4.8.0
