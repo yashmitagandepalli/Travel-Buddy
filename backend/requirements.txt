@@ -1,0 +1,16 @@
+# Core Web Dependencies
+Flask==3.0.0
+Flask-Cors==4.0.0
+gunicorn==21.2.0
+
+# HTTP Requests and Environment
+requests==2.31.0
+python-dotenv==1.0.0
+
+# JSON Serialization
+dataclasses-json==0.6.1
+marshmallow==3.20.1
+
+# LangChain - only if used
+langchain==0.0.312
+langsmith==0.0.43
